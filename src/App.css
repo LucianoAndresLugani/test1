@@ -1,0 +1,30 @@
+:root {
+  --primary: #DB5461;
+  --secondary: #686963;
+  --tertiary: #8AA29E;
+  --quaternary: #3D5467;
+  --background: #F1EDEE;
+}
+
+.hero.is-primary {
+  background-color: var(--primary);
+}
+
+.section {
+  background-color: var(--background);
+}
+
+.card {
+  background-color: var(--tertiary);
+}
+
+.footer {
+  background-color: var(--quaternary);
+  color: white;
+}
+
+.title,
+.subtitle,
+h1, h2, h3, h4, h5, h6 {
+  color: var(--quaternary);
+}
