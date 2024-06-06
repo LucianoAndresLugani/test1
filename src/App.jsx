@@ -135,7 +135,7 @@ const proyecto = {
       foto: fotoJuan
     },
     {
-      nombre: 'Luciano Lugani',
+      nombre: 'LucianoLugani',
       rol: 'Frontend ',
       foto: fotoAna
     }
