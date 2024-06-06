@@ -115,28 +115,28 @@ const Footer = () => {
   );
 };
 import imagen1 from './assets/img/entrepiso.jpg';
-import imagen2 from './assets/img/hangar.jpg';
+//import imagen2 from './assets/img/hangar.jpg';
 import fotoJuan from './assets/img/dario.jpg';
 import fotoAna from './assets/img/lucianolugani.jpg';
 
 
 const proyecto = {
   titulo:'Proyeto Robotica',
-  nombre: 'Ha',
-  descripcion: 'Descripción del proyecto de robótica.',
+  nombre: 'Iluminacion inteligente segun lumen del ambiente',
+  descripcion: 'Nuestro proyecto sirve para iluminar ambientes segun la luz del ambiente manteniendo siempre los mismos lumems seteados.',
   imagenes: [
     imagen1,
-    imagen2
+    
   ],
   equipo: [
     {
       nombre: 'Juan Pérez',
-      rol: 'Ingeniero de Software',
+      rol: 'Backend',
       foto: fotoJuan
     },
     {
-      nombre: 'Ana Gómez',
-      rol: 'Ingeniera de Hardware',
+      nombre: 'Luciano Lugani',
+      rol: 'Frontend ',
       foto: fotoAna
     }
   ],
@@ -147,7 +147,7 @@ const proyecto = {
       foto: fotoAna
     },
     {
-      nombre: 'María Fernández',
+      nombre: 'Cesar Gandia',
       comentario: 'Me encantó participar en este proyecto.',
       foto: fotoAna
     }
